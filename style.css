@@ -1,0 +1,15 @@
+  
+body {
+  background-color: #333;
+  color: #999;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+span {
+  font-size: 248px;
+}
+
+#clock {
+  margin-top: calc(50vh - 87px);
+}
