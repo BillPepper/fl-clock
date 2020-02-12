@@ -10,6 +10,32 @@ span {
   font-size: 248px;
 }
 
+#alarmDisplay {
+  text-align: left;
+}
+
 #clock {
   margin-top: calc(50vh - 87px);
+}
+
+#alarm {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  text-align: left;
+}
+
+#alarm > a {
+  color: #999;
+  text-decoration: none;
+}
+
+.alarmSettings > input,button {
+  font-size: 30px;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  color: #999;
+  background-color: transparent;
+  border: 1px solid;
 }

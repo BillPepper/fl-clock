@@ -1,4 +1,8 @@
 const disp = document.getElementById('clockDisplay');
+const setAlarmButton = document.getElementById('setAlarmButton');
+const alarmSettings = document.getElementById
+
+let alarm = undefined;
 
 const pad = (n) => {
 	return ('00' + n).slice(-2)
